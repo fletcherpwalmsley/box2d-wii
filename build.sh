@@ -4,5 +4,7 @@
 rm -rf build
 mkdir build
 cd build
-cmake -DBOX2D_BUILD_DOCS=OFF ..
+# cmake -DCMAKE_INSTALL_PREFIX=/home/fletcher/box2d-wii-install ..
+cmake  ..
 cmake --build .
+cmake --install .
