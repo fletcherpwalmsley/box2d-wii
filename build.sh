@@ -4,7 +4,7 @@
 rm -rf build
 mkdir build
 cd build
-# cmake -DCMAKE_INSTALL_PREFIX=/home/fletcher/box2d-wii-install ..
-cmake  ..
+# cmake -DCMAKE_INSTALL_PREFIX=~/box2d-wii-install ..
+/opt/devkitpro/portlibs/wii/bin/powerpc-eabi-cmake ..
 cmake --build .
 cmake --install .
